@@ -26,4 +26,4 @@ print(f"My number is {number}")
 num_string = "4"
 # TypeError: can only concatenate str (not "int") to str
 # Error comment after the : will be specific to what Python thinks you're trying to do.
-print(f"{num_string + number}") # num_string is a str and number is an int so this won't work
+print(f"{int(num_string) + number}") # num_string is a str and number is an int so this won't work
