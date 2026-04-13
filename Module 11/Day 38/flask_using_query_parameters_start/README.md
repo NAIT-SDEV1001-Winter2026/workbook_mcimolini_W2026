@@ -28,7 +28,7 @@ python -m venv ./venv
 ```
 2. install flask:
 ```bash
-pip install flask
+pip install flask #Note try this from requirements.
 ```
 3. Save the dependencies to a requirements file:
 ```bash
